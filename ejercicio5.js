@@ -1,3 +1,6 @@
-const sumar = (num1, num2) => num1 + num2;
+function sumar(num1, num2) {
+    return num1 + num2;
+}
 
-console.log(sumar(5, 7)); 
+console.log(sumar(5, 7)); // 12
+
