@@ -10,7 +10,7 @@ function saludar(nombre, idioma = 'es') {
     }
   }
   
-  console.log(saludar('Carlos','en')); 
+  console.log(saludar('Carlos','es')); 
   console.log(saludar('John', 'en')); 
   console.log(saludar('Marie', 'fr')); 
   
@@ -27,7 +27,7 @@ function saludar(nombre, idioma = 'es') {
     }
   };
   
-  console.log(saludarFlecha('Carlos','en')); 
+  console.log(saludarFlecha('Carlos','es')); 
   console.log(saludarFlecha('John', 'en')); 
   console.log(saludarFlecha('Marie', 'fr')); 
   
