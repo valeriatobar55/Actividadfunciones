@@ -6,13 +6,13 @@ function saludar(nombre, idioma = 'es') {
     } else if (idioma === 'fr') {
       return `Bonjour, ${nombre}!`;
     } else {
-      return `Hola, ${nombre}!`; // Por defecto, el saludo es en español
+      return `Hola, ${nombre}!`; 
     }
   }
   
-  console.log(saludar('Carlos')); // "Hola, Carlos!"
-  console.log(saludar('John', 'en')); // "Hello, John!"
-  console.log(saludar('Marie', 'fr')); // "Bonjour, Marie!"
+  console.log(saludar('Carlos')); 
+  console.log(saludar('John', 'en')); 
+  console.log(saludar('Marie', 'fr')); 
   
 
   const saludarFlecha = (nombre, idioma = 'es') => {
@@ -23,11 +23,11 @@ function saludar(nombre, idioma = 'es') {
     } else if (idioma === 'fr') {
       return `Bonjour, ${nombre}!`;
     } else {
-      return `Hola, ${nombre}!`; // Por defecto, el saludo es en español
+      return `Hola, ${nombre}!`; 
     }
   };
   
-  console.log(saludarFlecha('Carlos')); // "Hola, Carlos!"
-  console.log(saludarFlecha('John', 'en')); // "Hello, John!"
-  console.log(saludarFlecha('Marie', 'fr')); // "Bonjour, Marie!"
+  console.log(saludarFlecha('Carlos','en')); 
+  console.log(saludarFlecha('John', 'en')); 
+  console.log(saludarFlecha('Marie', 'fr')); 
   
